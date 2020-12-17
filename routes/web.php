@@ -14,9 +14,9 @@ use Inertia\Inertia;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 Route::get('/table', function () {
     return Inertia::render('Admin/Tables');
@@ -30,6 +30,6 @@ Route::get('/maps', function () {
     return Inertia::render('Admin/Maps');
 })->name('maps')->middleware('auth');
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+Route::middleware(['auth:sanctum', 'verified'])->get('/', function () {
     return Inertia::render('Dashboard');
 })->name('dashboard');
