@@ -88,7 +88,7 @@
                             class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left flex items-center"
                         >
                             <img
-                                src="img/bootstrap"
+                                src="img/bootstrap.jpg"
                                 class="h-12 w-12 bg-white rounded-full border"
                                 alt="..."
                             />
@@ -134,7 +134,7 @@
                                     class="w-10 h-10 rounded-full border-2 border-gray-100 shadow -ml-4"
                                 />
                                 <img
-                                    src="img/team-4-470x470.jpg"
+                                    src="img/team-4-470x470.png"
                                     alt="..."
                                     class="w-10 h-10 rounded-full border-2 border-gray-100 shadow -ml-4"
                                 />
@@ -168,7 +168,7 @@
                             class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left flex items-center"
                         >
                             <img
-                                src="img/angular"
+                                src="img/angular.jpg"
                                 class="h-12 w-12 bg-white rounded-full border"
                                 alt="..."
                             />
@@ -214,7 +214,7 @@
                                     class="w-10 h-10 rounded-full border-2 border-gray-100 shadow -ml-4"
                                 />
                                 <img
-                                    src="img/team-4-470x470.jpg"
+                                    src="img/team-4-470x470.png"
                                     alt="..."
                                     class="w-10 h-10 rounded-full border-2 border-gray-100 shadow -ml-4"
                                 />
@@ -248,7 +248,7 @@
                             class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left flex items-center"
                         >
                             <img
-                                src="img/sketch"
+                                src="img/sketch.jpg"
                                 class="h-12 w-12 bg-white rounded-full border"
                                 alt="..."
                             />
@@ -294,7 +294,7 @@
                                     class="w-10 h-10 rounded-full border-2 border-gray-100 shadow -ml-4"
                                 />
                                 <img
-                                    src="img/team-4-470x470.jpg"
+                                    src="img/team-4-470x470.png"
                                     alt="..."
                                     class="w-10 h-10 rounded-full border-2 border-gray-100 shadow -ml-4"
                                 />
@@ -328,7 +328,7 @@
                             class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left flex items-center"
                         >
                             <img
-                                src="img/react"
+                                src="img/react.jpg"
                                 class="h-12 w-12 bg-white rounded-full border"
                                 alt="..."
                             />
@@ -374,7 +374,7 @@
                                     class="w-10 h-10 rounded-full border-2 border-gray-100 shadow -ml-4"
                                 />
                                 <img
-                                    src="img/team-4-470x470.jpg"
+                                    src="img/team-4-470x470.png"
                                     alt="..."
                                     class="w-10 h-10 rounded-full border-2 border-gray-100 shadow -ml-4"
                                 />
@@ -408,7 +408,7 @@
                             class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left flex items-center"
                         >
                             <img
-                                src="img/vue"
+                                src="img/vue.jpg"
                                 class="h-12 w-12 bg-white rounded-full border"
                                 alt="..."
                             />
@@ -454,7 +454,7 @@
                                     class="w-10 h-10 rounded-full border-2 border-gray-100 shadow -ml-4"
                                 />
                                 <img
-                                    src="img/team-4-470x470.jpg"
+                                    src="img/team-4-470x470.png"
                                     alt="..."
                                     class="w-10 h-10 rounded-full border-2 border-gray-100 shadow -ml-4"
                                 />

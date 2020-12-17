@@ -81,103 +81,39 @@
 
                 <ul class="md:flex-col md:min-w-full flex flex-col list-none">
                     <li class="items-center">
-                        <a href="/admin/dashboard">
-                            <a
-                                :href="href"
-                                @click="navigate"
-                                class="text-xs uppercase py-3 font-bold block"
-                                :class="[
-                                    isActive
-                                        ? 'text-green-500 hover:text-green-600'
-                                        : 'text-gray-800 hover:text-gray-600',
-                                ]"
-                            >
-                                <i
-                                    class="fas fa-tv mr-2 text-sm"
-                                    :class="[
-                                        isActive
-                                            ? 'opacity-75'
-                                            : 'text-gray-400',
-                                    ]"
-                                ></i>
-                                Dashboard
-                            </a>
-                        </a>
+                        <inertia-link
+                            :href="route('dashboard')"
+                            class="text-xs uppercase py-3 font-bold block text-gray-800 hover:text-gray-600"
+                        >
+                            Dashboard
+                        </inertia-link>
                     </li>
 
                     <li class="items-center">
-                        <a href="/admin/settings">
-                            <a
-                                :href="href"
-                                @click="navigate"
-                                class="text-xs uppercase py-3 font-bold block"
-                                :class="[
-                                    isActive
-                                        ? 'text-green-500 hover:text-green-600'
-                                        : 'text-gray-800 hover:text-gray-600',
-                                ]"
-                            >
-                                <i
-                                    class="fas fa-tools mr-2 text-sm"
-                                    :class="[
-                                        isActive
-                                            ? 'opacity-75'
-                                            : 'text-gray-400',
-                                    ]"
-                                ></i>
-                                Settings
-                            </a>
-                        </a>
+                        <inertia-link
+                            :href="route('settings')"
+                            class="text-xs uppercase py-3 font-bold block text-gray-800 hover:text-gray-600"
+                        >
+                            Settings
+                        </inertia-link>
                     </li>
 
                     <li class="items-center">
-                        <a href="/admin/tables">
-                            <a
-                                :href="href"
-                                @click="navigate"
-                                class="text-xs uppercase py-3 font-bold block"
-                                :class="[
-                                    isActive
-                                        ? 'text-green-500 hover:text-green-600'
-                                        : 'text-gray-800 hover:text-gray-600',
-                                ]"
-                            >
-                                <i
-                                    class="fas fa-table mr-2 text-sm"
-                                    :class="[
-                                        isActive
-                                            ? 'opacity-75'
-                                            : 'text-gray-400',
-                                    ]"
-                                ></i>
-                                Tables
-                            </a>
-                        </a>
+                        <inertia-link
+                            :href="route('tables')"
+                            class="text-xs uppercase py-3 font-bold block text-gray-800 hover:text-gray-600"
+                        >
+                            Table
+                        </inertia-link>
                     </li>
 
                     <li class="items-center">
-                        <a href="/admin/maps">
-                            <a
-                                :href="href"
-                                @click="navigate"
-                                class="text-xs uppercase py-3 font-bold block"
-                                :class="[
-                                    isActive
-                                        ? 'text-green-500 hover:text-green-600'
-                                        : 'text-gray-800 hover:text-gray-600',
-                                ]"
-                            >
-                                <i
-                                    class="fas fa-map-marked mr-2 text-sm"
-                                    :class="[
-                                        isActive
-                                            ? 'opacity-75'
-                                            : 'text-gray-400',
-                                    ]"
-                                ></i>
-                                Maps
-                            </a>
-                        </a>
+                        <inertia-link
+                            :href="route('maps')"
+                            class="text-xs uppercase py-3 font-bold block text-gray-800 hover:text-gray-600"
+                        >
+                            MAPS
+                        </inertia-link>
                     </li>
                 </ul>
 

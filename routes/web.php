@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Inertia\Inertia;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +18,18 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/table', function () {
+    return Inertia::render('Admin/Tables');
+})->name('tables')->middleware('auth');
+
+Route::get('/setting', function () {
+    return Inertia::render('Admin/Settings');
+})->name('settings')->middleware('auth');
+
+Route::get('/maps', function () {
+    return Inertia::render('Admin/Maps');
+})->name('maps')->middleware('auth');
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return Inertia\Inertia::render('Dashboard');
+    return Inertia::render('Dashboard');
 })->name('dashboard');
