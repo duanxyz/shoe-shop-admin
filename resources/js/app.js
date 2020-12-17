@@ -4,6 +4,11 @@ require('moment');
 
 import Vue from 'vue';
 
+// styles
+
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import "../css/tailwind.css";
+
 import { InertiaApp } from '@inertiajs/inertia-vue';
 import { InertiaForm } from 'laravel-jetstream';
 import PortalVue from 'portal-vue';
