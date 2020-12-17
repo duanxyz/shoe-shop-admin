@@ -45,20 +45,22 @@
                 Something else here
             </a>
             <div class="h-0 my-2 border border-solid border-gray-200" />
-            <a
-                href="javascript:void(0);"
-                class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
-            >
-                Seprated link
-            </a>
+            <!-- Authentication -->
+            <form @submit.prevent="logout">
+                <jet-dropdown-link as="button"> Logout </jet-dropdown-link>
+            </form>
         </div>
     </div>
 </template>
 
 <script>
 import { createPopper } from "@popperjs/core";
+import JetDropdownLink from "@/Jetstream/DropdownLink";
 
 export default {
+    components: {
+        JetDropdownLink,
+    },
     data() {
         return {
             dropdownPopoverShow: false,
@@ -79,6 +81,12 @@ export default {
                     }
                 );
             }
+        },
+
+        logout() {
+            axios.post(route("logout").url()).then((response) => {
+                window.location = "/";
+            });
         },
     },
 };
